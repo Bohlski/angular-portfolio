@@ -8,6 +8,7 @@ import { Project } from 'src/app/shared/interfaces';
 })
 export class PortfolioComponent implements OnInit {
   projects: Project[];
+  test: boolean = false;
 
   constructor() { }
 
