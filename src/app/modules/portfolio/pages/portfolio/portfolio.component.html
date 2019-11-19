@@ -1,19 +1,8 @@
 <h1 class="title">Projects</h1>
 <div class="row" *ngIf="projects.length; else noProjects">
-
-<!--{% if projects %}
-	{% for project in projects %} -->
-	<div class="col-md-4" *ngFor="let project of projects">
-		<div class="card mb-2">
-			<a href="{{ '//' + project.link }}"><img class="card-img-top" src="../../../../../assets/placeholder.png"></a> <!-- TODO: make dynamic -->
-			<div class="card-body">
-				<h5 class="card-title">{{ project.title }}</h5>
-				<p class="card-text">{{ project.desc }}</p>
-				<a href="{% url 'projects:detail' project.slug %}" class="btn btn-primary">Read More</a>
-			</div>
-		</div>
-	</div>
+	<app-project class="col-md-4" *ngFor="let project of projects" [project]="project"></app-project>
 </div>
+
 <ng-template #noProjects>
 	<p>No projects found.</p>
 </ng-template>

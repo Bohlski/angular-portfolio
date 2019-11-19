@@ -1,0 +1,21 @@
+h1.title {
+	margin-top: 0.8rem;
+	margin-bottom: 1rem;
+}
+
+h1.blog-detail-title {
+	margin-top: 0.8rem;
+}
+
+.cat-divider {
+	display: inline;
+	color: lightgrey;
+}
+
+li a {
+	color: green;
+}
+
+hr {
+	margin: 0 0 1rem;
+}
