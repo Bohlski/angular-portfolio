@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { BlogModule } from './modules/blog/blog.module';
 import { CoreModule } from './core/core.module';
 import { PortfolioModule } from './modules/portfolio/portfolio.module';
+import { ProjectsService } from './core/services/projects.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,9 +18,10 @@ import { PortfolioModule } from './modules/portfolio/portfolio.module';
     AppRoutingModule,
     CoreModule,
     BlogModule,
-    PortfolioModule
+    PortfolioModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ProjectsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
