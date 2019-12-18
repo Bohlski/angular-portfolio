@@ -12,6 +12,11 @@ h1.blog-detail-title {
 	color: lightgrey;
 }
 
+allow-linebreak {
+	color: aquamarine;
+	white-space: pre-line;
+}
+
 li a {
 	color: green;
 }

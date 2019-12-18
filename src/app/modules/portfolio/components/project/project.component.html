@@ -1,7 +1,7 @@
 <div class="card mb-2">
 	<a href="{{ '//' + project.link }}"><img class="card-img-top" src="../../../../../assets/placeholder.png"></a> <!-- TODO: make dynamic -->
 	<div class="card-body">
-		<h5 class="card-title">{{ project.title | textLimit: 25}}</h5>
+		<h5 class="card-title">{{ project.title | textLimit: 28}}</h5>
 		<p class="card-text">{{ project.desc | textLimit }}</p>
 		<a [routerLink]="['/portfolio', project.id]" class="btn btn-primary">Read More</a>
 	</div>

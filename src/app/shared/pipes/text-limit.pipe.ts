@@ -6,7 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class TextLimitPipe implements PipeTransform {
 
   transform(value: string, limit?: number): string {
-    let DEFAULT_MAX = 74;
+    let DEFAULT_MAX = 78;
     if (limit) {
       return (value.length > limit) ? value.slice(0, limit) + '...' : value;
     }
