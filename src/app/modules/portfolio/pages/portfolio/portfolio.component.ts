@@ -9,7 +9,6 @@ import { ProjectsService } from 'src/app/core/services/projects.service';
 })
 export class PortfolioComponent implements OnInit {
   projects: Project[];
-  test: boolean = false;
 
   constructor(private projectsService: ProjectsService) { }
 

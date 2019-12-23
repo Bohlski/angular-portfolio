@@ -8,6 +8,7 @@ import { CoreModule } from './core/core.module';
 import { PortfolioModule } from './modules/portfolio/portfolio.module';
 import { ProjectsService } from './core/services/projects.service';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeModule } from './modules/home/home.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     CoreModule,
     BlogModule,
     PortfolioModule,
-    HttpClientModule
+    HttpClientModule,
+    HomeModule
   ],
   providers: [ProjectsService],
   bootstrap: [AppComponent]

@@ -5,7 +5,7 @@
 		"desc": "Made the portfolio that you're seeing here on my site using Angular. Initially I started this project with using Python and Django, but soon came to realize that deploying a Django-app was not supported by the 'basic' web hotel I had..\n\nWith a little time off from the project, I came to realize that not only was this thing called Angular supported by the web hotel, it was also more sought after in the industry. As such, I soon after started learning Angular and 'ported' everything I had already made in Django to this new framework.\n\nFrom the introductory course to Angular on skrimba.com and this project I learned all the basics of Angular; Angular CLI, modules, components, services, pipes, routing, event- and data binding, directives etc.",
 		"tech": "Angular, TypeScript, HTML, CSS, JSON",
 		"img": "#",
-		"link": "https://github.com/Bohlski/angular-portfolio"
+		"link": "github.com/Bohlski/angular-portfolio"
 	},
 	{
 		"id": 2,

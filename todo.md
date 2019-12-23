@@ -5,6 +5,7 @@
 * Maybe make pipe that allows description to contain hyperlinks - e.g. "as seen [here](https://test.com)"
 * Insert images to use in the projects
 * Make everything (projects service) use a database for storage of projects instead of json file
-* Make frontpage
+* Design frontpage
+* Somehow prevent false routes (why is this not even default behaviour???????)
 * Make overhaul of design
 * Make everything blog-related (that's not already done in old repo)
