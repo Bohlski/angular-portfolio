@@ -22,5 +22,21 @@
 		"tech": "Angular, HTML, CSS",
 		"img": "#",
 		"link": "#"
+	},
+	{
+		"id": 4,
+		"title": "Follow-Up",
+		"desc": "Project made in collaboration with OK a.m.b.a during the course 'Eksperimentel Systemudvikling' (dEksSys) at AU.",
+		"tech": "Electron, Vue.js, TypeScript, UIkit, SCSS",
+		"img": "#",
+		"link": "#"
+	},
+	{
+		"id": 5,
+		"title": "Engaging pupils in school",
+		"desc": "Project made in collaboration with Randers Realskole during the course 'Interaktionsdesign' (dIntDes) at AU.",
+		"tech": "JavaScript, Handlebars.js, SCSS, HTML",
+		"img": "#",
+		"link": "#"
 	}
 ]

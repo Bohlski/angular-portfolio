@@ -8,3 +8,4 @@
 * Make frontpage
 * Make overhaul of design
 * Make everything blog-related (that's not already done in old repo)
+* Make text-limit pipe cut off before word that is overriding limit (makes for prettier text)
