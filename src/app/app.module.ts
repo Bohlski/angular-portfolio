@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { BlogModule } from './modules/blog/blog.module';
 import { CoreModule } from './core/core.module';
 import { PortfolioModule } from './modules/portfolio/portfolio.module';
-import { ProjectsService } from './core/services/projects.service';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeModule } from './modules/home/home.module';
+import { ProjectsService } from './core/services/projects.service';
+import { BlogService } from './core/services/blog.service';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,7 @@ import { HomeModule } from './modules/home/home.module';
     HttpClientModule,
     HomeModule
   ],
-  providers: [ProjectsService],
+  providers: [ProjectsService, BlogService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

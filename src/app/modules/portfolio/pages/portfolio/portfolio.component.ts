@@ -8,13 +8,11 @@ import { ProjectsService } from 'src/app/core/services/projects.service';
   styles: []
 })
 export class PortfolioComponent implements OnInit {
-  projects: Project[];
+  projects: Project[] = [];
 
   constructor(private projectsService: ProjectsService) { }
 
   ngOnInit() {
-    // Not using a service for now
     this.projectsService.getProjects().subscribe((projects: Project[]) => this.projects = projects);
   }
-
 }

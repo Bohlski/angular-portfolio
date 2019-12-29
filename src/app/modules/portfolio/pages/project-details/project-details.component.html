@@ -1,11 +1,11 @@
-<h1 class="title">{{ project.title }}</h1>
-<div class="row">
+<h1 class="title" *ngIf="project">{{ project.title }}</h1> <!-- ngIf to avoid error with reading property of null -->
+<div class="row" *ngIf="project">
 	<div class="col-md-8">
-		<img src="../../../../../assets/placeholder.png" alt="project image" width="100%">
+		<img [src]="imgFolder + (project.img ? project.img : 'placeholder.png')" alt="project image" width="100%">
 	</div>
 	<div class="col-md-4">
 		<h5>About the project:</h5>
-		<p class="allow-linebreak">{{ project.desc }}</p>
+		<p>{{ project.desc }}</p>
 		<br>
 		<h5>Technology used:</h5>
 		<p>{{ project.tech }}</p>

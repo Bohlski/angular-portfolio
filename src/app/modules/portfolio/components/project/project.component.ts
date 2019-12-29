@@ -4,10 +4,11 @@ import { Project } from 'src/app/shared/interfaces';
 @Component({
   selector: 'app-project',
   templateUrl: './project.component.html',
-  styles: []
+  styleUrls: ['./project.component.css']
 })
 export class ProjectComponent implements OnInit {
   @Input() project: Project;
+  imgFolder: string = "../../../../../assets/images/";
 
   constructor() { }
 

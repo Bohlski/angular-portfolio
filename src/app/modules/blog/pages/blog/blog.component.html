@@ -1,1 +1,5 @@
-<p>blog works!</p>
+<div class="col-md-8 offset-md-2">
+	<h1 class="title">Blog</h1>
+	<hr>
+	<app-blog-post *ngFor="let post of posts" [post]="post" (deletePost)="deletePost($event)"></app-blog-post>
+</div>

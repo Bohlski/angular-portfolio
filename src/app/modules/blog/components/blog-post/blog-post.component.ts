@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+
 import { BlogPost } from 'src/app/shared/interfaces';
 
 @Component({
@@ -7,10 +8,15 @@ import { BlogPost } from 'src/app/shared/interfaces';
   styleUrls: ['./blog-post.component.css']
 })
 export class BlogPostComponent implements OnInit {
-  blogPosts: BlogPost[];
+  @Input() post:BlogPost;
+  @Output() deletePost:EventEmitter<BlogPost> = new EventEmitter(); // Removed the button for this for the time being
+  
   constructor() { }
 
   ngOnInit() {
   }
 
+  onDelete(post) {
+    this.deletePost.emit(post)
+  }
 }

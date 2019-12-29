@@ -4,23 +4,22 @@
 		"title": "Portfolio using Angular",
 		"desc": "Made the portfolio that you're seeing here on my site using Angular. Initially I started this project with using Python and Django, but soon came to realize that deploying a Django-app was not supported by the 'basic' web hotel I had..\n\nWith a little time off from the project, I came to realize that not only was this thing called Angular supported by the web hotel, it was also more sought after in the industry. As such, I soon after started learning Angular and 'ported' everything I had already made in Django to this new framework.\n\nFrom the introductory course to Angular on skrimba.com and this project I learned all the basics of Angular; Angular CLI, modules, components, services, pipes, routing, event- and data binding, directives etc.",
 		"tech": "Angular, TypeScript, HTML, CSS, JSON",
-		"img": "#",
 		"link": "github.com/Bohlski/angular-portfolio"
 	},
 	{
 		"id": 2,
 		"title": "Haveredskaberne (web shop)",
-		"desc": "This was a group project made during the course 'Webteknologi' (dWebTek) at AU. The project consisted",
-		"tech": "Java, JUnit, JSF, JAX-RS, JavaScript, CSS, HTML, XHTML, XML, JSON",
-		"img": "#",
+		"desc": "This was a group project made during the course 'Webteknologi' (dWebTek) at AU. The project consisted of something.",
+		"tech": "Java, JSF, JAX-RS, JavaScript, CSS, HTML, XHTML, XML, JSON",
+		"img": "haveredskaber.png",
 		"link": "#"
 	},
 	{
 		"id": 3,
 		"title": "HotCiv",
-		"desc": "Another group project made at AU during the course 'Software Engineering and Architechture' (SWEA - formerly dSoftArk)",
-		"tech": "Angular, HTML, CSS",
-		"img": "#",
+		"desc": "Another group project made at AU during the course 'Software Engineering and Architechture' (SWEA - formerly dSoftArk).",
+		"tech": "Java, JUnit, JaCoCo, Apache Ant/Ivy",
+		"img": "hotciv.png",
 		"link": "#"
 	},
 	{
@@ -28,15 +27,15 @@
 		"title": "Follow-Up",
 		"desc": "Project made in collaboration with OK a.m.b.a during the course 'Eksperimentel Systemudvikling' (dEksSys) at AU.",
 		"tech": "Electron, Vue.js, TypeScript, UIkit, SCSS",
-		"img": "#",
+		"img": "follow-up.png",
 		"link": "#"
 	},
 	{
 		"id": 5,
-		"title": "Engaging pupils in school",
+		"title": "Engaging pupils in lower-grade elementary school",
 		"desc": "Project made in collaboration with Randers Realskole during the course 'Interaktionsdesign' (dIntDes) at AU.",
 		"tech": "JavaScript, Handlebars.js, SCSS, HTML",
-		"img": "#",
+		"img": "int-des.png",
 		"link": "#"
 	}
 ]

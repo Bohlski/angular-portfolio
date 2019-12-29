@@ -10,7 +10,8 @@ import { ProjectsService } from 'src/app/core/services/projects.service';
   styleUrls: ['./project-details.component.css']
 })
 export class ProjectDetailsComponent implements OnInit {
-  project: Project;
+  imgFolder = "../../../../../assets/images/";
+  project: Project = null;
 
   constructor(private route: ActivatedRoute, private projectsService: ProjectsService) { }
 
