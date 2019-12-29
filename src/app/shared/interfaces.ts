@@ -6,3 +6,12 @@ export interface Project {
 	img?: string;
 	link?: string;
 }
+
+export interface BlogPost {
+	id: number;
+	title: string;
+	body: string;
+	created_on: string;
+	last_modified: string;
+	categories: string[];
+}
