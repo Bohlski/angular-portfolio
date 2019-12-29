@@ -1,5 +1,7 @@
 # AngularPortfolio
 
+Since I realized that I had too limited access to deploy my Django-app portfolio on my webhotel, I figured I might aswell have a go at this Angular-thingy.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
 
 ## Development server
