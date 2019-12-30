@@ -1,5 +1,5 @@
 <div class="card mb-2">
-	<a href="{{ '//' + project.link }}"><img class="card-img-top" [src]="imgFolder + (project.img ? project.img : 'placeholder.png')"></a> <!-- TODO: make dynamic -->
+	<img class="card-img-top" [src]="imgFolder + (project.img ? project.img : 'placeholder.png')">
 	<div class="card-body">
 		<h5 class="card-title">{{ project.title | textLimit: 28}}</h5>
 		<p class="card-text">{{ project.desc | textLimit }}</p>

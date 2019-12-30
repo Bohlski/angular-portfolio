@@ -1,7 +1,8 @@
 <h1 class="title" *ngIf="project">{{ project.title }}</h1> <!-- ngIf to avoid error with reading property of null -->
 <div class="row" *ngIf="project">
 	<div class="col-md-8">
-		<img [src]="imgFolder + (project.img ? project.img : 'placeholder.png')" alt="project image" width="100%">
+		<a *ngIf="project.link; else noLink" href="{{ '//' + project.link}}"><img [src]="imgFolder + (project.img ? project.img : 'placeholder.png')" alt="project image" width="100%"></a>
+		<ng-template #noLink><img [src]="imgFolder + (project.img ? project.img : 'placeholder.png')" alt="project image" width="100%"></ng-template>
 	</div>
 	<div class="col-md-4">
 		<h5>About the project:</h5>

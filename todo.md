@@ -1,6 +1,6 @@
 # To-do
 
-* Make link on project image only if a link is provided
+* Make something with the project link to github on portfolio
 * Make descriptions etc. of projects
 * I believe a pipe is necessary to handle new lines in description (CSS won't handle content projected into component)
 * Maybe make pipe that allows description to contain hyperlinks - e.g. "as seen [here](https://test.com)"

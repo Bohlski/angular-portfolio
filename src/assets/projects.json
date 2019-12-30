@@ -11,31 +11,27 @@
 		"title": "Haveredskaberne (web shop)",
 		"desc": "This was a group project made during the course 'Webteknologi' (dWebTek) at AU. The project consisted of something.",
 		"tech": "Java, JSF, JAX-RS, JavaScript, CSS, HTML, XHTML, XML, JSON",
-		"img": "haveredskaber.png",
-		"link": "#"
+		"img": "haveredskaber.png"
 	},
 	{
 		"id": 3,
 		"title": "HotCiv",
 		"desc": "Another group project made at AU during the course 'Software Engineering and Architechture' (SWEA - formerly dSoftArk).",
 		"tech": "Java, JUnit, JaCoCo, Apache Ant/Ivy",
-		"img": "hotciv.png",
-		"link": "#"
+		"img": "hotciv.png"
 	},
 	{
 		"id": 4,
 		"title": "Follow-Up",
 		"desc": "Project made in collaboration with OK a.m.b.a during the course 'Eksperimentel Systemudvikling' (dEksSys) at AU.",
 		"tech": "Electron, Vue.js, TypeScript, UIkit, SCSS",
-		"img": "follow-up.png",
-		"link": "#"
+		"img": "follow-up.png"
 	},
 	{
 		"id": 5,
 		"title": "Engaging pupils in lower-grade elementary school",
 		"desc": "Project made in collaboration with Randers Realskole during the course 'Interaktionsdesign' (dIntDes) at AU.",
 		"tech": "JavaScript, Handlebars.js, SCSS, HTML",
-		"img": "int-des.png",
-		"link": "#"
+		"img": "int-des.png"
 	}
 ]
